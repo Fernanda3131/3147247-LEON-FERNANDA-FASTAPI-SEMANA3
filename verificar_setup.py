@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+
+#!/usr/bin/env python3
 """
 Script de verificación rápida del setup FastAPI
 """
@@ -7,7 +10,7 @@ import os
 from pathlib import Path
 
 def verificar_setup():
-    print("🔍 VERIFICACIÓN DEL SETUP FASTAPI")
+    print("��� VERIFICACIÓN DEL SETUP FASTAPI")
     print("=" * 50)
 
     # Verificar Python
@@ -59,11 +62,11 @@ def verificar_setup():
     except:
         print("⚠️  Git no configurado localmente")
 
-    print("\n🎯 RESUMEN DEL SETUP:")
+    print("\n��� RESUMEN DEL SETUP:")
     print("✅ Setup básico completado")
-    print("🚀 Listo para ejecutar: uvicorn main:app --reload")
-    print("📖 Documentación disponible en: http://localhost:8000/docs")
-    print("🔧 Verificación disponible en: http://localhost:8000/info/setup")
+    print("��� Listo para ejecutar: uvicorn main:app --reload")
+    print("��� Documentación disponible en: http://localhost:8000/docs")
+    print("��� Verificación disponible en: http://localhost:8000/info/setup")
 
     return True
 
